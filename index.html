@@ -1,12 +1,46 @@
 <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CalcEntradas</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Esquadrias e Vidros</title>
+    <title>Calculadora de Entradas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <h1>Controle de Ordens de Serviço</h1> 
+    <h1>Calculadora de Entradas</h1>
+  
+    <div class="form">
+      <div class="labels">
+        <label for="valorFuturo">Valor Futuro:</label>
+        <label for="taxaJuros">Taxa de Juros (%):</label>
+        <label for="valorPresente">Valor Presente:</label>
+      </div>
+  
+      <div class="campos">
+        <input type="number" id="valorFuturo" value="500.00">
+        <input type="number" id="taxaJuros" value="5.67">
+        <input type="number" id="valorPresente">
+      </div>
+  </div>
+
+    <button onclick="calcularEntradas()">Calcular</button>
+    <p id="resultado"></p>
+    <textarea id="listaEntradas" rows="30" cols="70" readonly></textarea>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
 </html>

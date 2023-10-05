@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    background-color: #2a2829;
+  
+}
+
+h1 {
+    color: #f7f1e1;
+    font-size: 28px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px 10px;
+    background-color: #abee93;
+    color: #2a2829;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+listaEntradas {
+  width: auto;
+  max-width: 762px;
+  min-width: 550px;
+  font-size: 6px; /* Tamanho da fonte dos registros, ajuste conforme necessário */
+  
+}
+
+#resultado {
+    color: #f7f1e1; /* Escolha a cor desejada aqui */
+    min-width: 350px;
+}
+
+.form {
+  max-width: 330px;
+  min-width: 330px;
+  //width: 50%;  
+  align-items: center;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  //background: yellow;
+  margin: 0 auto 10px;
+  border: 2px solid #dceeb1; /* Estilo, largura e cor da borda */
+  padding: 10px; /* Adiciona algum espaço interno para melhorar a aparência */
+
+}
+
+.labels {
+  width: 50%;
+  text-align: left; /* Alinhar todo o conteúdo à esquerda */
+  color: #f7f1e1;
+  //background: blue;
+  padding: 5px;
+}
+
+.labels label {
+  display: block; /* Isso faz com que cada label seja exibido em uma nova linha */
+  padding: 5px;
+}
+
+.campos {
+  width: 50%;
+  //flex-basis: 25%; /* Define a largura dos campos de entrada */
+  //background: red;
+  padding: 5px;
+
+}
+
+.campos input[type="number"] {
+  width:90%; /* Define a largura dos campos de entrada para ocupar todo o espaço disponível */
+  text-align: right; /* Alinha os campos de entrada à direita */
+  padding: 5px;
+  font-weight: bold;
+  
+  
+}
